@@ -1,0 +1,53 @@
+.navSideBar{
+    background-color: rgb(49, 49, 49);
+    width: 16rem;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sideBarItem{
+    color: white;
+    font-size: 20px;
+    background-color: rgb(36, 36, 36);
+    padding: 1rem;
+    justify-self: center;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10rem;
+}
+
+.sideBarItem:hover{
+    background-color: rgb(27, 27, 27);
+    border: 1px solid rgb(255, 94, 0);
+    box-shadow: 0 3px 6px black;
+    transform: scale(1.03);
+}
+
+.sideBarItem-active{
+    background-color: rgb(30, 30, 30);
+    border-bottom: 2px solid rgb(255, 94, 0);
+    border-left: 2px solid rgb(255, 94, 0);
+    border-top: 2px solid rgb(255, 94, 0);
+    border-right: 2px solid rgb(28, 28, 28);
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    box-shadow: inset 8px 3px 10px black;
+    transform: scaleX(1.08);
+}
+.sideBarItem-active:hover{
+    background-color: rgb(30, 30, 30);
+    border-bottom: 2px solid rgb(255, 94, 0);
+    border-left: 2px solid rgb(255, 94, 0);
+    border-top: 2px solid rgb(255, 94, 0);
+    border-right: 2px solid rgb(28, 28, 28);
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    box-shadow: inset 8px 3px 10px black;
+    transform: scaleX(1.08);
+}
